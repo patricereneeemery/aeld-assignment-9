@@ -1,0 +1,11 @@
+[Unit]
+Description=AESD Socket Server
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/aesdsocket
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

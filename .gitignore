@@ -1,0 +1,20 @@
+# Yocto build directories
+build/
+build/*
+build/tmp/
+build/tmp/*
+
+# Autotools / CMake / temp
+*.o
+*.so
+*.a
+*.swp
+*.tmp
+*.log
+
+# Editor junk
+*.swp
+*.swo
+
+# Backup directories
+backup_root_files/

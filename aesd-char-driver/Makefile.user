@@ -1,0 +1,10 @@
+CC = gcc
+CFLAGS = -Wall -Wextra -O2
+
+all: aesdchar_ioctl_test
+
+aesdchar_ioctl_test: aesdchar_ioctl_test.c
+	$(CC) $(CFLAGS) -o aesdchar_ioctl_test aesdchar_ioctl_test.c
+
+clean:
+	rm -f aesdchar_ioctl_test

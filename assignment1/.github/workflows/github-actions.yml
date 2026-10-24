@@ -1,0 +1,23 @@
+name: assignment-autograding
+
+on:
+  push:
+    branches: [ Assignment1 ]
+  pull_request:
+    branches: [ Assignment1 ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        submodules: true
+
+    - name: Set execute permissions
+      run: chmod +x finder-app/finder.sh finder-app/writer.sh
+
+    - name: Run Assignment 1 tests
+      run: make -C finder-app test

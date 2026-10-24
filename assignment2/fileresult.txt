@@ -1,0 +1,1 @@
+/home/patrice/aesd-assignments/finder-app/writer: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, BuildID[sha1]=a3b73ed354eaaa4f8d9c0f2e2519805bf984f160, for GNU/Linux 3.7.0, not stripped

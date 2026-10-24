@@ -1,0 +1,6 @@
+menu "AESD assignment packages"
+
+source "$BR2_EXTERNAL/package/aesd-assignments/Config.in"
+source "$BR2_EXTERNAL/package/ldd/Config.in"
+
+endmenu
